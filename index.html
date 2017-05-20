@@ -190,7 +190,99 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/img/2017052001.jpg" alt="2017052001"><br>
+        <div id="echarts6195" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts6195'));
+
+        // 指定图表的配置项和数据
+        var option = {
+    title: {
+        text: "涨停板题材分布",
+        x: "center"
+    },
+    tooltip: {
+        trigger: "item",
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        x: "center",
+        y: "bottom",
+        data: ["超跌反弹", "国产软件", "可燃冰", "雄安新区", "新股", "庄股", "设立公司", "电力改革"]
+    },
+    toolbox: {
+        show: true,
+        feature: {
+            mark: {
+                show: true
+            },
+            dataView: {
+                show: true,
+                readOnly: true
+            },
+            restore: {
+                show: true
+            },
+            saveAsImage: {
+                show: true
+            }
+        }
+    },
+    calculable: true,
+    series: [
+        {
+            name: "涨停比例",
+            type: "pie",
+            radius: [30, 90],
+            center: ["50%", "50%"],
+            roseType: "radius",
+            data: [
+                {
+                    value: 1,
+                    name: "超跌反弹"
+                },
+                {
+                    value: 2,
+                    name: "国产软件"
+                },
+                {
+                    value: 7,
+                    name: "可燃冰"
+                },
+                {
+                    value: 8,
+                    name: "雄安新区"
+                },
+                {
+                    value: 3,
+                    name: "新股"
+                },
+                {
+                    value: 1,
+                    name: "庄股"
+                },
+                {
+                    value: 1,
+                    name: "设立公司"
+                },
+                {
+                    value: 1,
+                    name: "电力改革"
+                }
+            ],
+            startAngle: -113,
+            selectedMode: "single",
+            markPoint: {
+                data: []
+            }
+        }
+    ]
+}
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+<p><img src="/img/2017052001.jpg" alt="2017052001"><br>
         
           <a class="article-more-a" href="/qq598020381.github.io/2017/05/20/2017-05-20  周六[复盘笔记]/#more">more >></a>
         
@@ -775,6 +867,22 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">复盘</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">股票标记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">大盘分析</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">看空</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">程序员</a>
               </li>
              
@@ -795,19 +903,15 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">复盘</a>
+                <a href="javascript:void(0)" class="js-tag color3">心理</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">股票标记</a>
+                <a href="javascript:void(0)" class="js-tag color3">情感</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">大盘分析</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">看空</a>
+                <a href="javascript:void(0)" class="js-tag color3">心得</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -820,18 +924,6 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">github</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">心理</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">情感</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">心得</a>
               </li>
              
               <li class="article-tag-list-item">
