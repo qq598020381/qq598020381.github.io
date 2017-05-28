@@ -6,17 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="www.cutizi.com">
-  <title>Tag: 心理 | 粗体字</title>
+  <title>Kdj Macd 深度解析 | 粗体字</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="看空，可以证明你的机智。做多，才能成就你的富贵。股票经济研究，公式数据分析，人性情感解剖。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="粗体字">
-<meta property="og:url" content="www.cutizi.com/tags/心理/index.html">
+  <meta name="description" content="先指出一些常见的指标公式:MACD KDJ ……其中的原理。解剖核心原理，是为了证明一件事情：技术指标，可以用来复盘，但是无法预测未来的股价走向。另外附加：如何大几率选出一只能赚钱的股票。">
+<meta name="keywords" content="同花顺,公式,选股,技巧">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kdj Macd 深度解析">
+<meta property="og:url" content="www.cutizi.com/2017/05/23/2017-05-23-01/index.html">
 <meta property="og:site_name" content="粗体字">
-<meta property="og:description" content="看空，可以证明你的机智。做多，才能成就你的富贵。股票经济研究，公式数据分析，人性情感解剖。">
+<meta property="og:description" content="先指出一些常见的指标公式:MACD KDJ ……其中的原理。解剖核心原理，是为了证明一件事情：技术指标，可以用来复盘，但是无法预测未来的股价走向。另外附加：如何大几率选出一只能赚钱的股票。">
+<meta property="og:image" content="/img/2017052313.png">
+<meta property="og:updated_time" content="2017-05-23T05:45:31.059Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="粗体字">
-<meta name="twitter:description" content="看空，可以证明你的机智。做多，才能成就你的富贵。股票经济研究，公式数据分析，人性情感解剖。">
+<meta name="twitter:title" content="Kdj Macd 深度解析">
+<meta name="twitter:description" content="先指出一些常见的指标公式:MACD KDJ ……其中的原理。解剖核心原理，是为了证明一件事情：技术指标，可以用来复盘，但是无法预测未来的股价走向。另外附加：如何大几率选出一只能赚钱的股票。">
+<meta name="twitter:image" content="/img/2017052313.png">
   
     <link rel="alternative" href="/atom.xml" title="粗体字" type="application/atom+xml">
   
@@ -193,83 +197,207 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-2017-05-23-01" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/05/19/2017-05-19-02/" class="archive-article-date">
-  	<time datetime="2017-05-19T09:27:32.961Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-19</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/05/19/2017-05-19-02/">勿忘初心</a>
+    <h1 class="article-title" itemprop="name">
+      Kdj Macd 深度解析
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/05/23/2017-05-23-01/" class="archive-article-date">
+  	<time datetime="2017-05-23T05:43:28.515Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>先指出一些常见的指标公式:MACD KDJ ……其中的原理。<br>解剖核心原理，是为了证明一件事情：技术指标，可以用来复盘，但是无法预测未来的股价走向。<br>另外附加：如何大几率选出一只能赚钱的股票。<br><a id="more"></a></p>
+<h3 id="MACD指标解析"><a href="#MACD指标解析" class="headerlink" title="MACD指标解析"></a>MACD指标解析</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">SHORT:= 12;</div><div class="line">LONG := 26;</div><div class="line">M    := 9;</div><div class="line">DIFF :  EMA(CLOSE,SHORT) - EMA(CLOSE,LONG);</div><div class="line">DEA  :  EMA(DIFF,M);</div><div class="line">MACD :  2*(DIFF-DEA);</div><div class="line">Zero :  0;</div></pre></td></tr></table></figure>
+<p>解读： SHORT、LONG、M，这3个是3个变量数字，代表的是3个天数。<br>       DIFF，是指 “SHORT”这个数字的收盘价的平均值 - “LONG”这个数字的收盘价的平均值；（其实就是12日均线-26日均线）<br>       DEA，是指“DIFF”在“M”天的平均值；（其实就是对2根均线的差值，做了一个平均。）<br>       MACD，是指 “DIFF-DEA”的差值，然后数字<em>2； （其实就是 2根均线的差值 - 数日平均差值，最后结果</em>2，是为了让MACD数字看起来更明显。）<br>结论： MACD指标，就是一种另类的收盘价的画法，和你平日所见的 12日均线上穿3日均线，26日均线上穿12日均线，其实意义一样。<br>总结： 3日均线上穿12日均线，长期持有到3日线下穿12日线卖出，能保证盈利么？其实，还是得大盘说了算，如果大盘不好，那随时死叉。指标公式是对“已经发生”的事情做了个总结，而不是预测未来的事情。</p>
+<h3 id="KDJ指标解析"><a href="#KDJ指标解析" class="headerlink" title="KDJ指标解析"></a>KDJ指标解析</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">N  := 9;</div><div class="line">M1 := 3;</div><div class="line">M2 := 3;</div><div class="line">RSV:= (CLOSE-LLV(LOW,N))/(HHV(HIGH,N)-LLV(LOW,N))*100;</div><div class="line">a  := SMA(RSV,M1,1);</div><div class="line">b  := SMA(a,M2,1);</div><div class="line">e  := 3*a-2*b;</div><div class="line">K  :  a;</div><div class="line">D  :  b;</div><div class="line">J  :  e;</div></pre></td></tr></table></figure>
+<p>解读： N、M1、M2，这3个是3个变量数字，代表的是3个天数。<br>       RSV，是指 （当前收盘价 - “N”这个天数的最低价）/（N天数的最高价-N天数的最低价）<em>100；（其实就是计算当前收盘价与N日最高价的差距比例）<br>       a，是指 “RSV”在“M1”天的平均值；（其实就是对当前价与近日最高价的差值，做了一个平均。）<br>       b，是指 “a”在“M2”天的平均值；（其实就是对前面的平均值，又做了一个平均。）<br>       e，是指 “3</em>a”-“2*b”的差值； （通俗理解就是 近期差距-长期差距）<br>       abe，也就是kdj，J上穿D为金叉买入，其实与MACD的意思一致。</p>
+<p>最终结论： X日线上穿XX日线，如果为金叉，下穿为死叉；道理等同于KDJ、MACD金叉、死叉。<br>           其实这就是经过“高端包装”的一个均线系统。<br>质疑    ： 为何有的“专家”截图发的“低位金叉”、“高位死叉”，最后都非常符合预期？<br>答案    ： 一个股票从10元上涨到100元，X日线肯定会上穿XX日线；从100元下跌到10元，XX日线肯定也会被X日线砸穿。<br>           专家们都会用“成功案例”来强化自己的语气，肯定不会贴上失败的案例。<br>附图    ： 时间为2017年5月23日，MACD依然金叉，KDJ即将死叉。可其实你已经遭遇股灾有4天了……<br><img src="/img/2017052313.png" alt="20170523指标解析">           </p>
+<p>那么如何能用正确的姿势选出一只优秀的股票呢？<br>【缓慢更新中……】</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/zhifubao.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/weixin.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">心理</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">同花顺</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">情感</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">公式</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">复盘</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">选股</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">心得</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技巧</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/复盘/" class="article-tag-list-link color3">复盘</a>
+        			<a href="/categories/公式/" class="article-tag-list-link color3">公式</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http:www.cutizi.com/2017/05/23/2017-05-23-01/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2017/05/23/2017-05-23/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          2017-05-23  周二[复盘笔记]
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2017/05/22/2017-05-22/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2017-05-22  周一[复盘笔记]</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+  
+  
   
 
-    
+  
+  <div id="SOHUCS" sid="2017-05-23-01" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = "cyt1aVKNW"; 
+var conf = "d46b54d1c2b06312b139e25167fc65ef"; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) { 
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+  
+
+  
 
 
           </div>
@@ -292,9 +420,9 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: true,
 		root: "/",
