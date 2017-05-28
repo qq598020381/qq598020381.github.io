@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>www.cutizi.com/2017/05/28/2017-05-28-01/</loc>
+    <lastmod>2017-05-28T02:35:28.911Z</lastmod>
+    <data>
+        <display>
+        <title>github托管的hexo网站,如何被百度谷歌收录</title>
+        <pubTime>2017-05-28T00:24:11.239Z</pubTime>
+        
+        <tag>程序员</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
+        <tag>google</tag>
+         
+        <tag>baidu</tag>
+         
+         
+           
+             
+              <breadCrumb title="程序员" url="www.cutizi.com/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>www.cutizi.com/2017/05/26/2017-05-26/</loc>
     <lastmod>2017-05-26T07:31:10.506Z</lastmod>
     <data>
@@ -181,11 +209,11 @@
         <title>txt文件如何导入同花顺</title>
         <pubTime>2017-05-21T08:13:43.930Z</pubTime>
         
-        <tag>同花顺</tag>
-         
         <tag>程序员</tag>
          
         <tag>自选股</tag>
+         
+        <tag>同花顺</tag>
          
         <tag>txt</tag>
          
@@ -209,11 +237,11 @@
         <title>Python爬虫设计思路</title>
         <pubTime>2017-05-20T02:13:38.408Z</pubTime>
         
+        <tag>程序员</tag>
+         
         <tag>同花顺</tag>
          
         <tag>选股</tag>
-         
-        <tag>程序员</tag>
          
         <tag>Python</tag>
          
@@ -239,13 +267,13 @@
         
         <tag>程序员</tag>
          
+        <tag>Python</tag>
+         
         <tag>hexo</tag>
          
         <tag>Markdown</tag>
          
         <tag>github</tag>
-         
-        <tag>Python</tag>
          
          
            
