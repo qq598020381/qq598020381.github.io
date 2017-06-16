@@ -5,14 +5,23 @@
     
   <url>
     <loc>www.cutizi.com/2017/06/16/2017-06-16/</loc>
-    <lastmod>2017-06-16T14:02:31.234Z</lastmod>
+    <lastmod>2017-06-16T14:07:19.709Z</lastmod>
     <data>
         <display>
-        <title></title>
+        <title>2017-06-16  周五[复盘笔记]</title>
         <pubTime>2017-06-16T07:00:52.644Z</pubTime>
         
+        <tag>复盘</tag>
+         
+        <tag>股票标记</tag>
+         
+        <tag>大盘分析</tag>
+         
          
            
+             
+              <breadCrumb title="复盘" url="www.cutizi.com/categories/%E5%A4%8D%E7%9B%98/"/>
+          
         </display>
     </data>
     </url>
@@ -734,13 +743,13 @@
         
         <tag>程序员</tag>
          
-        <tag>Python</tag>
-         
         <tag>hexo</tag>
          
         <tag>Markdown</tag>
          
         <tag>github</tag>
+         
+        <tag>Python</tag>
          
          
            
